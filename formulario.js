@@ -82,7 +82,7 @@ crearElemento("Nombre", nombre)
 crearElemento("Edad", edad)
 crearElemento("Nacionalidad", nacionalidad)
 
-}
+
 var botonBorrar = document.createElement("button")
 botonBorrar.textContent = "Eliminar invitado"
 botonBorrar.id = "boton-borrar"
@@ -94,3 +94,4 @@ elementoLista.appendChild(botonBorrar);
 // this.parentNode.style.display = 'none';
 botonBorrar.parentNode.remove()
   }
+}
