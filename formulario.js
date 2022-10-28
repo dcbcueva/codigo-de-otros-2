@@ -1,3 +1,4 @@
+/* Este codigo nos agrega invitados, nos despliega la lista de invitados y nos deja selecionarlos y eliminarlos */
 var formulario = document.querySelector(".formulario")
 
 formulario.onsubmit = function(e) {
